@@ -1,0 +1,91 @@
+# ----------------------------
+# Python core ignores
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# SPCK Editor autosaves
+.spck/
+*.spck-temp
+*~backup*
+
+# Pydroid 3 specific
+# (It creates temp folders and cache for site-packages)
+.pydroid/
+pydroid-repos/
+pydroid-cache/
+local_cache/
+.cache/
+
+# Logs and debug
+*.log
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Optional: Ignore your personal GitHub token file (if used)
+github_token.txt
+token.json
+secret_config.py
+
+# ----------------------------
+# Custom: TerminalX settings
+# ----------------------------
+# If you use runtime-generated config, history, or temp data:
+terminalx_history.txt
+terminalx_config.json
+terminalx_temp/
