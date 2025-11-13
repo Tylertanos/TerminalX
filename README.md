@@ -10,7 +10,7 @@ TerminalX is a lightweight Python-based terminal interface built for flexibility
 
 ## 🧩 Installation
 ```bash
-git clone https://github.com/<your-username>/TerminalX.git
+git clone https://github.com/<Tylertanos>/TerminalX.git
 cd TerminalX
 pip install -r requirements.txt
 python main.py
